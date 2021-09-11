@@ -1,9 +1,11 @@
-import GlobalButton from "./components/Buttons/Primary/GlobalButton";
+import GeneralButton from "./components/atoms/Button/GeneralButton";
+import "./theme/theme.scss";
+import { ReactComponent as MenuIcon } from "./components/atoms/Icons/menu.svg";
 
 function App() {
   return (
     <div>
-      <GlobalButton />
+      <GeneralButton Icon={MenuIcon} title="Secciones" />
     </div>
   );
 }
