@@ -1,12 +1,16 @@
 @import "./_normalize.scss";
 
-$white-color: #fcf5ed;
-$dark-color: #402f2b;
-$light-color: #e6d5c3;
+$white-color: #FFFFFF;
+$dark-color: #1C1C1F;
+$light-blue: #BEE4FF;
+$strong-blue: #0074C4;
 $medium-color: #977978;
-$alert-color: #cb492a;
-$light-black-color: #706e72;
-$black-color: #414042;
+$alert-yellow: #FFFF24;
+$alert-color: #C61C1E;
+$light-black-text: #333333;
+$light-pink: #FFEAF1;
+$strong-pink: #C40F4D;
+$border-grey: #CCCCCC;
 $border-radius: 4px;
 
 @function spacing($unit) {
