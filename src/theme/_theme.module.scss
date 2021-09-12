@@ -1,0 +1,114 @@
+@import "./_normalize.scss";
+
+//colors
+$white-color: #ffffff;
+$dark-color: #1c1c1f;
+$light-blue: #bee4ff;
+$strong-blue: #0074c4;
+$alert-yellow: #ffff24;
+$alert-red: #c61c1e;
+$light-black-text: #333333;
+$light-pink: #ffeaf1;
+$strong-pink: #c40f4d;
+$border-grey: #cccccc;
+
+//typography sizes
+$font-size-xxxl: 48px;
+$font-size-xxl: 32px;
+$font-size-xl: 24px;
+$font-size-l: 18px;
+$font-size-m: 16px;
+$font-size-s: 15px;
+$font-size-xs: 14px;
+
+//typography weights
+$font-weight-extra-bold: 800;
+$font-weight-bold: 700;
+$font-weight-medium: 600;
+$font-weight-light: 400;
+$font-weight-extra-light: 200;
+
+//typography fonts
+
+@font-face {
+  font-family: 'suecaslab-bold';
+  src: url('http://localhost:3000/fonts/suecaslab-bold.eot') format('eot');
+  src:  url('http://localhost:3000/fonts/suecaslab-bold.woff2') format('woff2'),
+         url('http://localhost:3000/fonts/suecaslab-bold.svg') format('svg'),
+         url('http://localhost:3000/fonts/suecaslab-bold.ttf') format('truetype'),
+        url('http://localhost:3000/fonts/suecaslab-bold.woff') format('woff');
+};
+
+@font-face {
+  font-family: 'suecaslab-medium';
+  src: url('http://localhost:3000/fonts/suecaslab-medium.eot') format('eot');
+  src:  url('http://localhost:3000/fonts/suecaslab-medium.woff2') format('woff2'),
+         url('http://localhost:3000/fonts/suecaslab-medium.svg') format('svg'),
+         url('http://localhost:3000/fonts/suecaslab-medium.ttf') format('truetype'),
+        url('http://localhost:3000/fonts/suecaslab-medium.woff') format('woff');
+};
+
+$font-family-bold: "suecaslab-bold";
+$font-family-medium: "suecaslab-medium";
+
+//common units 
+$border-radius: 4px;
+
+@function spacing($unit) {
+  @return $unit * 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  height: spacing(8);
+  padding-left: spacing(3.2);
+  padding-right: spacing(3.2);
+  padding-top: spacing(2.4);
+  padding-bottom: spacing(2.4);
+  min-width: spacing(21);
+}
+
+h1 {
+  font-family: $font-family-bold;
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+  :export {
+    white: $white-color;
+    dark: $dark-color;
+    lightBlue: $light-blue;
+    strongBlue: $strong-blue;
+    alertYellow: $alert-yellow;
+    alertRed: $alert-red;
+    lightBlackText: $light-black-text;
+    lightPink: $light-pink;
+    strongPink: $strong-pink;
+    grey: $border-grey;
+    fontXXXL: $font-size-xxxl;
+    fontXXL: $font-size-xxl;
+    fontXL:$font-size-xl;
+    fontL:$font-size-l;
+    fontM:$font-size-m;
+    fontS:$font-size-s;
+    fontXS:$font-size-xs;
+    fontExtraBold:$font-weight-extra-bold;
+    fontBold:$font-weight-bold;
+    fontMedium:$font-weight-medium;
+    fontLight:$font-weight-light;
+    fontExtraLight:$font-weight-extra-light;
+    suecasLabBold: $font-family-bold;
+    suecasLabMedium: $font-family-medium;
+  }

@@ -4,7 +4,7 @@ const ContainerImage = ({ style, src, alt, avatar }) => {
   return (
     <img
       style={style}
-      class={avatar ? "avatar-style" : "img-style"}
+      className={avatar ? "avatar-style" : "img-style"}
       src={src}
       alt={alt}
     />

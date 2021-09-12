@@ -14,6 +14,11 @@ module.exports = {
             loader: "sass-loader",
           },
         ],
+        options: {
+          modules: {
+            compileType: "icss",
+          },
+        },
       },
     ],
   },
