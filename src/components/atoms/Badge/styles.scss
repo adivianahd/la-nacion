@@ -1,0 +1,12 @@
+@import "../../../theme/_theme.module.scss";
+
+.badge-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-color;
+    color: $white-color;
+    text-transform: uppercase;
+    width: fit-content;
+    padding: spacing(0.8) spacing(1.6) spacing(0.8) spacing(1.6);
+}

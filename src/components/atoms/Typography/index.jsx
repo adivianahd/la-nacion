@@ -37,7 +37,15 @@ const FontFamily = {
   suecasLabMedium: theme.suecasLabMedium,
 };
 
-const Typography = ({ color, size, weight, fontFamily }) => {
+const Typography = ({
+  color,
+  size,
+  weight,
+  fontFamily,
+  children,
+  className,
+}) => {
+  const firstUpper = (str) => str.charAt(0).toUpperCase() + str.slice(1);
   return (
     <div
       style={{
@@ -46,9 +54,9 @@ const Typography = ({ color, size, weight, fontFamily }) => {
         fontWeight: Weight[weight],
         fontFamily: FontFamily[fontFamily],
       }}
-      className="typography"
+      className={`${className}` + " typography"}
     >
-      holllllaaa
+      {firstUpper(`${children}`)}
     </div>
   );
 };
