@@ -1,0 +1,10 @@
+@import "../../../theme/_theme.module.scss";
+
+.marquee-styles {
+  display: flex;
+  flex-direction: row;
+    text-transform: capitalize;
+    :first-child {
+      margin-right: spacing(1);
+    }
+}
