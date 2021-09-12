@@ -1,6 +1,6 @@
 import GeneralButton from "./components/atoms/Button/GeneralButton";
-import "./theme/theme.scss";
 import { ReactComponent as MenuIcon } from "./components/atoms/Icons/search.svg";
+import "./theme/theme.scss";
 
 function App() {
   return (

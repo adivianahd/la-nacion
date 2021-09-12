@@ -1,0 +1,14 @@
+@import "../../../theme/theme";
+
+.avatar-style {
+  border-radius: spacing(200);
+  min-width: spacing(16);
+  min-height: spacing(16);
+  background-color: $border-grey;
+}
+
+.img-style {
+  background-color: $light-blue;
+  min-width: spacing(35);
+  min-height: spacing(22.8);
+}

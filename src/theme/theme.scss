@@ -1,43 +1,45 @@
 @import "./_normalize.scss";
 
-$white-color: #FFFFFF;
-$dark-color: #1C1C1F;
-$light-blue: #BEE4FF;
-$strong-blue: #0074C4;
+$white-color: #ffffff;
+$dark-color: #1c1c1f;
+$light-blue: #bee4ff;
+$strong-blue: #0074c4;
 $medium-color: #977978;
-$alert-yellow: #FFFF24;
-$alert-color: #C61C1E;
+$alert-yellow: #ffff24;
+$alert-color: #c61c1e;
 $light-black-text: #333333;
-$light-pink: #FFEAF1;
-$strong-pink: #C40F4D;
-$border-grey: #CCCCCC;
+$light-pink: #ffeaf1;
+$strong-pink: #c40f4d;
+$border-grey: #cccccc;
 $border-radius: 4px;
 
 @function spacing($unit) {
-   @return $unit * 5px;
+  @return $unit * 5px;
 }
 
 button {
   border-radius: 8px;
   border: none;
   height: spacing(8);
-  padding-left:spacing(3.2);
-  padding-right:spacing(3.2);
+  padding-left: spacing(3.2);
+  padding-right: spacing(3.2);
   padding-top: spacing(2.4);
   padding-bottom: spacing(2.4);
   min-width: spacing(21);
 }
 
-h1{
+h1 {
   font-size: 48px;
 }
-h2{
+h2 {
   font-size: 32px;
 }
-h2{
+h2 {
   font-size: 24px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
 }
