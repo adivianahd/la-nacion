@@ -1,0 +1,15 @@
+@import "../../../theme/_theme.module.scss";
+
+.paragrahp-style {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.lead{
+  margin-right: spacing(1);
+  margin-left: spacing(1);
+  &:after {
+    content: ".";
+  }
+}
