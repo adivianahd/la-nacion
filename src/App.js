@@ -1,6 +1,6 @@
-import GeneralButton from "./components/atoms/Button/GeneralButton";
-import { ReactComponent as MenuIcon } from "./components/atoms/Icons/search.svg";
-import Typography from "./components/atoms/Typography/Typography";
+import Button from "./components/atoms/Button";
+import { LargeLogo, SearchIcon } from "./components/atoms/Icons";
+import Typography from "./components/atoms/Typography";
 import "./theme/_theme.module.scss";
 
 function App() {
@@ -9,9 +9,10 @@ function App() {
       <Typography
         color={"strongPink"}
         fontFamily={"suecasLabBold"}
-        size={"XXXL"}
+        size={"XS"}
       />
-      <GeneralButton Icon={MenuIcon} title="Secciones" />
+      <LargeLogo />
+      <Button Icon={SearchIcon} title="Secciones" />
     </div>
   );
 }

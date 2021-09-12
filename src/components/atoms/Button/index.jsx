@@ -1,6 +1,6 @@
 import "./styles.scss";
 
-const GeneralButton = ({ title, onCLick, Icon, style }) => {
+const Button = ({ title, onCLick, Icon, style }) => {
   return (
     <button
       style={style}
@@ -13,4 +13,4 @@ const GeneralButton = ({ title, onCLick, Icon, style }) => {
   );
 };
 
-export default GeneralButton;
+export default Button;
