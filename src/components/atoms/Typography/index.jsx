@@ -38,7 +38,9 @@ const FontFamily = {
 };
 
 const Typography = ({
+  lead,
   color,
+  isLeadWhite,
   size,
   weight,
   fontFamily,
@@ -47,17 +49,21 @@ const Typography = ({
 }) => {
   const firstUpper = (str) => str.charAt(0).toUpperCase() + str.slice(1);
   return (
-    <div
+    <p
+      className="typography"
       style={{
-        color: Color[color],
         fontSize: Size[size],
         fontWeight: Weight[weight],
+        color: Color[color],
         fontFamily: FontFamily[fontFamily],
       }}
-      className={`${className}` + " typography"}
     >
+      {lead && !isLeadWhite && <span className="lead">{firstUpper(lead)}</span>}
+      {lead && isLeadWhite && (
+        <span className="leadWhite">{firstUpper(lead) + `${". "}`}</span>
+      )}
       {firstUpper(`${children}`)}
-    </div>
+    </p>
   );
 };
 
