@@ -4,35 +4,76 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 spacing(3.2) 0 spacing(3.2) ;
   min-height: spacing(10);
-  background: $border-grey;
+  border-bottom: $border-grey;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 
-  @media only screen and (min-width: 2000px){
+  @media only screen and (min-width: 1200px){
     height: spacing(15);
     background-image: url("http://localhost:3000/assets/large-logo.svg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
+
+    .search-icon-mobile {
+      display: none;
+      }
+
+    .button-suscribe{
+        display: none;
+      }
   }
-  @media only screen and (max-width: 2000px){
+
+  @media only screen and (max-width: 1200px){
+    justify-content: flex-end;
     background-image: url("http://localhost:3000/assets/medium-logo.svg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position-x: spacing(3.2);
     background-position-y: center;
+
+    .buttons-hide{
+      display: none;
+    }
   }
 }
 
-button {
+.button-suscribe {
   background: transparent;
   color: $strong-blue;
   margin-right: spacing(2);
+}
 
-  @media only screen and (min-width: 2000px){
-   display: none;
-  background: #f00;
+.container-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: spacing(300);
+  width: 100%;
+}
 
-  }
+.buttons-hide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 320px;
+}
+
+.suscribe-button {
+  background-color: $alert-yellow;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $border-grey;
+}
+
+.login-button {
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  color: $strong-blue;
+  border-color: $strong-blue;
 }
