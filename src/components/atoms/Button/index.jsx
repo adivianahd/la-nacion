@@ -1,13 +1,12 @@
 import "./styles.scss";
 
-const Button = ({ title, onCLick, Icon, style }) => {
+const Button = ({ children, onCLick, Icon, style }) => {
   return (
     <button
-      style={style}
-      className="general-button-style"
+      className={`${style + " general-button-style"}`}
       onClick={() => onCLick}
     >
-      {title.toUpperCase()}
+      {children.toUpperCase()}
       {Icon && <Icon className="icon-button" />}
     </button>
   );
