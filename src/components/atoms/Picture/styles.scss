@@ -2,13 +2,15 @@
 
 .avatar-style {
   border-radius: spacing(200);
-  min-width: spacing(16);
-  min-height: spacing(16);
+  min-width: spacing(3);
+  min-height: spacing(3);
+  max-width: spacing(24);
+  max-height: spacing(24);
   background-color: $border-grey;
 }
 
 .img-style {
   background-color: $light-blue;
-  min-width: spacing(35);
-  min-height: spacing(22.8);
+  min-width: spacing(3);
+  min-height: spacing(3);
 }

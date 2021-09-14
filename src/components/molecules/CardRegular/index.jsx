@@ -24,10 +24,11 @@ const CardRegular = ({
       <div className="container-text">
         <Typography
           color="dark"
-          weight={weightTitle || "extraLight"}
           size={sizeTitle || "L"}
           colorLead={colorLead}
-          fontFamily="suecasLabMedium"
+          fontFamily={
+            weightTitle === "bold" ? "suecasLabBold" : "suecasLabMedium"
+          }
           lead={leadTitle || ""}
           url={urlNote}
         >

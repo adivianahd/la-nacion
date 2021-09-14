@@ -1,7 +1,7 @@
 import "./styles.scss";
 import Button from "../../atoms/Button";
 import { SearchIconBig, SearchIcon, MenuIcon } from "../../atoms/Icons/index";
-import BreadCrumbs from "../../molecules/BreadCrumbs/BreadCrubs";
+import BreadCrumbs from "../../molecules/BreadCrumbs";
 
 const Header = () => {
   return (

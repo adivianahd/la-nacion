@@ -1,10 +1,14 @@
 import "./styles.scss";
 
-const ContainerImage = ({ style, src, alt, avatar }) => {
+const ContainerImage = ({ style, src, alt, avatar, className }) => {
   return (
     <img
       style={style}
-      className={avatar ? "avatar-style" : "img-style"}
+      className={
+        avatar
+          ? `${className + " avatar-style"}`
+          : `${className + " img-style"}`
+      }
       src={src}
       alt={alt}
     />
