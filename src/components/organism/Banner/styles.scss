@@ -1,7 +1,7 @@
 @import "../../../theme/_theme.module.scss";
 
 .banner {
-  position: absolute;
+  position: relative;
   margin-top: spacing(0);
   z-index: -1;
   background-color: $light-blue;
@@ -10,6 +10,7 @@
   background-position: center;
   object-fit: cover;
   width: 100%;
+  min-height: 800px;
   height: 100%;
   display: flex;
   align-items: flex-end;

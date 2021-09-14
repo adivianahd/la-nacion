@@ -4,11 +4,14 @@
   margin: spacing(1);
 }
 
-.lead {
+.lead-blue {
   color: $light-blue;
 }
 
-
-.leadWhite {
+.lead-white {
   color: $white-color;
+}
+
+.lead-black{
+  color: $dark-color;
 }

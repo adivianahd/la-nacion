@@ -16,7 +16,7 @@ const Banner = ({ title, badge, marquee, labelMarquee, lead }) => {
               size="XXXL"
               fontFamily="suecasLabBold"
               lead={lead || "lead"}
-              isLeadWhite
+              colorLead="white"
             >
               {title ||
                 "Title esto es un titulo de la novedad con unas cuantas lineas que ocupar"}

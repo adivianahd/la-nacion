@@ -19,6 +19,7 @@ const Size = {
   XXL: theme.fontXXL,
   XL: theme.fontXL,
   L: theme.fontL,
+  LS: theme.fontLS,
   M: theme.fontM,
   S: theme.fontS,
   XS: theme.fontXS,
@@ -37,10 +38,16 @@ const FontFamily = {
   suecasLabMedium: theme.suecasLabMedium,
 };
 
+const ColorLead = {
+  blue: "lead-blue",
+  white: "lead-white",
+  black: "lead-black",
+};
+
 const Typography = ({
   lead,
   color,
-  isLeadWhite,
+  colorLead,
   size,
   weight,
   fontFamily,
@@ -58,9 +65,10 @@ const Typography = ({
         fontFamily: FontFamily[fontFamily],
       }}
     >
-      {lead && !isLeadWhite && <span className="lead">{firstUpper(lead)}</span>}
-      {lead && isLeadWhite && (
-        <span className="leadWhite">{firstUpper(lead) + `${". "}`}</span>
+      {lead && (
+        <span className={colorLead ? ColorLead[colorLead] : "lead-blue"}>
+          {firstUpper(lead) + `${". "}`}
+        </span>
       )}
       {firstUpper(`${children}`)}
     </p>
