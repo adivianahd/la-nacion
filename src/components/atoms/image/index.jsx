@@ -1,6 +1,6 @@
 import "./styles.scss";
 
-const ContainerImage = ({ style, src, alt, avatar, className }) => {
+const Image = ({ style, src, alt, avatar, className }) => {
   return (
     <img
       style={style}
@@ -15,4 +15,4 @@ const ContainerImage = ({ style, src, alt, avatar, className }) => {
   );
 };
 
-export default ContainerImage;
+export default Image;

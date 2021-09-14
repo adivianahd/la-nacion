@@ -1,7 +1,7 @@
 import "./styles.scss";
 import Typography from "../../atoms/Typography";
 import Marquee from "../../atoms/Marquee";
-import ContainerImage from "../../atoms/Picture/ContainerPicture";
+import Image from "../../atoms/image/ContainerPicture";
 
 const AuthorCard = ({
   lead,
@@ -31,7 +31,7 @@ const AuthorCard = ({
         {note || ""}
       </Typography>
       <div className="container-avatar">
-        <ContainerImage
+        <Image
           avatar
           src={urlImg}
           alt={authorName}
