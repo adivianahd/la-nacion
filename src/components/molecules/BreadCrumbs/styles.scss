@@ -1,0 +1,60 @@
+@import "../../../theme/_theme.module.scss";
+
+.breadCrumbs-background {
+  display: flex;
+  justify-content: center;
+  background-color: $light-grey;
+  min-height: spacing(8);
+  width: 100%;
+  @media only screen and (max-width: 1200px){
+   background-color: $white-color;
+  }
+}
+
+.breadCrumbs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: $max-width-body;
+  padding: spacing(1) spacing(3.2) spacing(1) spacing(3.2);
+
+  @media only screen and (max-width: 800px){
+    justify-content: center;
+    height: spacing(10);
+    .dolar-breadcrum-hide-mobile, .club-nation-breadcrumb {
+      display: none;
+      } 
+  }
+
+  @media only screen and (max-width: 1200px){
+    .hiden-breadcrum-in-mobile {
+      display: none;
+      }
+  }
+}
+
+.dolar-breadcrumb {
+  display: flex;
+  flex-direction: row;
+}
+
+.hiden-breadcrum-in-mobile{
+  display: flex;
+  flex-direction: row;
+  p{
+    margin: spacing(0.1);
+  }
+}
+
+.button-newsletters {
+  background: transparent;
+  color: $strong-blue;
+  margin-right: spacing(2);
+}
+
+.club-nation-breadcrumb {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}

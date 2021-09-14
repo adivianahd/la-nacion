@@ -9,6 +9,7 @@ $alert-yellow: #ffff24;
 $alert-red: #c61c1e;
 $light-black-text: #333333;
 $light-pink: #ffeaf1;
+$light-grey: #F2F2F2;
 $strong-pink: #c40f4d;
 $border-grey: #cccccc;
 
@@ -57,6 +58,7 @@ $border-radius: 4px;
 @function spacing($unit) {
   @return $unit * 5px;
 }
+$max-width-body: spacing(300);
 
 button {
   border-radius: 8px;
@@ -87,6 +89,7 @@ h3 {
 }
 
   :export {
+    max-width: $max-width-body;
     white: $white-color;
     dark: $dark-color;
     lightBlue: $light-blue;
@@ -95,6 +98,7 @@ h3 {
     alertRed: $alert-red;
     lightBlackText: $light-black-text;
     lightPink: $light-pink;
+    lightGrey: $light-grey;
     strongPink: $strong-pink;
     grey: $border-grey;
     fontXXXL: $font-size-xxxl;

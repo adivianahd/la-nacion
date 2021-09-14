@@ -8,23 +8,21 @@ const Marquee = ({ marquee, label, sign, separator, color }) => {
     <div>
       {marquee && (
         <div className="marquee-styles">
-          <Typography
-            size="XS"
-            weight="bold"
-            color={color}
-          >{`${marquee}${withSeparator}`}</Typography>
+          <Typography size="XS" weight="bold" color={color}>{`${
+            marquee || ""
+          }${withSeparator}`}</Typography>
           <Typography size="XS" weight="bold" color={color}>
-            {label}
+            {label || ""}
           </Typography>
         </div>
       )}
       {sign && (
         <div className="marquee-styles">
           <Typography weight="bold" size="M" color={color}>
-            {sign}
+            {sign || ""}
           </Typography>
           <Typography weight="bold" size="M" color={color}>
-            {label}
+            {label || ""}
           </Typography>
         </div>
       )}

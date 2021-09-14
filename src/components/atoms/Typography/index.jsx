@@ -50,7 +50,7 @@ const Typography = ({
   const firstUpper = (str) => str.charAt(0).toUpperCase() + str.slice(1);
   return (
     <p
-      className="typography"
+      className={className + " typography"}
       style={{
         fontSize: Size[size],
         fontWeight: Weight[weight],

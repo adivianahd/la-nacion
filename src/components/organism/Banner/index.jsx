@@ -9,20 +9,21 @@ const Banner = ({ title, badge, marquee, labelMarquee, lead }) => {
       <div className="gradient-container">
         <div>
           <div className="label-banner">
-            {badge && <Badge title={badge} />}
+            <Badge title={badge || "INFOGRAFÍA"} />
             <Typography
               className="labeled-paragraph"
               color="white"
               size="XXXL"
               fontFamily="suecasLabBold"
-              lead={lead || ""}
+              lead={lead || "lead"}
               isLeadWhite
             >
-              {title}
+              {title ||
+                "Title esto es un titulo de la novedad con unas cuantas lineas que ocupar"}
             </Typography>
             <Marquee
-              marquee={marquee || ""}
-              label={labelMarquee || ""}
+              marquee={marquee || "marquee"}
+              label={labelMarquee || "author"}
               separator
               color={"white"}
             />

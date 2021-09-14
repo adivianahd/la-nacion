@@ -1,6 +1,12 @@
 @import "../../../theme/_theme.module.scss";
 
 .header-container {
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  background-color: $white-color;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,12 +24,8 @@
     background-size: auto;
     background-position: center;
 
-    .search-icon-mobile {
+    .search-icon-mobile, .button-suscribe {
       display: none;
-      }
-
-    .button-suscribe{
-        display: none;
       }
   }
 
@@ -52,7 +54,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: spacing(300);
+  max-width: $max-width-body;
   width: 100%;
 }
 
