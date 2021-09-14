@@ -8,7 +8,12 @@ function App() {
     <>
       <Header />
       <Banner />
-      <CardRegular />
+      <CardRegular
+        title="hooalalaljshgcbhdjbchdsc"
+        sizeTitle="XXL"
+        leadTitle="lead"
+        colorLead="strongBlue"
+      />
     </>
   );
 }

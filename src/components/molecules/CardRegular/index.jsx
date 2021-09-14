@@ -3,7 +3,8 @@ import Typography from "../../atoms/Typography";
 import Marquee from "../../atoms/Marquee";
 
 const CardRegular = ({
-  lead,
+  leadTitle,
+  leadParagraph,
   colorLead,
   title,
   weightTitle,
@@ -13,19 +14,22 @@ const CardRegular = ({
   separatorMaquee,
   paragraph,
   cardReverse,
-  url,
+  urlImg,
+  urlNote,
   alt,
 }) => {
   return (
     <div className={cardReverse ? "reverse" : "container"}>
-      <img src={url || ""} alt={alt || ""} />
+      <img src={urlImg} alt={alt || ""} />
       <div className="container-text">
         <Typography
           color="dark"
           weight={weightTitle || "extraLight"}
           size={sizeTitle || "L"}
+          colorLead={colorLead}
           fontFamily="suecasLabMedium"
-          lead={lead || ""}
+          lead={leadTitle || ""}
+          url={urlNote}
         >
           {title || ""}
         </Typography>
@@ -35,8 +39,8 @@ const CardRegular = ({
           color="dark"
           size="LS"
           fontFamily="suecasLabMedium"
-          lead={lead || ""}
-          colorLead={colorLead || "black"}
+          lead={leadParagraph || ""}
+          colorLead={"black"}
         >
           {paragraph || ""}
         </Typography>

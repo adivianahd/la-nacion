@@ -4,8 +4,19 @@
   margin: spacing(1);
 }
 
+a {
+  text-decoration: none;
+  &:visited{
+    color: inherit;
+  }
+}
+
 .lead-blue {
   color: $light-blue;
+}
+
+.lead-strong-blue {
+  color: $strong-blue;
 }
 
 .lead-white {

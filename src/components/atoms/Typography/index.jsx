@@ -40,6 +40,7 @@ const FontFamily = {
 
 const ColorLead = {
   blue: "lead-blue",
+  strongBlue: "lead-strong-blue",
   white: "lead-white",
   black: "lead-black",
 };
@@ -53,6 +54,7 @@ const Typography = ({
   fontFamily,
   children,
   className,
+  url,
 }) => {
   const firstUpper = (str) => str.charAt(0).toUpperCase() + str.slice(1);
   return (
@@ -70,7 +72,7 @@ const Typography = ({
           {firstUpper(lead) + `${". "}`}
         </span>
       )}
-      {firstUpper(`${children}`)}
+      <a href={url}>{firstUpper(`${children}`)}</a>
     </p>
   );
 };
