@@ -1,25 +1,26 @@
 @import "../../../theme/_theme.module.scss";
 
-.container {
+.container-author-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: spacing(1) spacing(3.2) spacing(1) spacing(3.2);
+  padding: spacing(4) spacing(4) spacing(4) spacing(4);
   text-align: center;
   border: solid 1px $border-grey;
   width: 100%;
   height: 100%;
-  max-width: spacing(60);
 }
 
 .container-avatar {
-  padding: spacing(1) spacing(3.2) spacing(1) spacing(3.2);
   margin-top: spacing(5);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
 .small-avatar {

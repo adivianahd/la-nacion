@@ -230,7 +230,7 @@ export const MOCK_DATA = [
     },
   },
   {
-    type: "SIMPLE",
+    type: "REGULAR",
     reverse: false,
     width: 2,
     height: 1,
@@ -267,12 +267,12 @@ export const MOCK_DATA = [
     width: 2,
     height: 1,
     title: {
-      lead: "volanta",
-      title: LOREMP_IMPSU.substr(0, 100),
+      lead: "",
+      title: LOREMP_IMPSU.substr(0, 20),
     },
     paragraph: {
       lead: "",
-      paragraph: "",
+      paragraph: LOREMP_IMPSU.substr(0, 200),
     },
     urlImage: {
       url: "",
@@ -288,9 +288,9 @@ export const MOCK_DATA = [
       label: "",
     },
     marquee: {
-      title: "marquesina",
-      label: "1",
-      separator: false,
+      title: "",
+      label: "",
+      separator: true,
     },
   },
   {
@@ -299,8 +299,9 @@ export const MOCK_DATA = [
     width: 2,
     height: 1,
     title: {
-      lead: "",
-      title: LOREMP_IMPSU.substr(0, 20),
+      lead: "lead",
+      title:
+        "Title cuando se dieron cuenta, los dos hermanos estaban preparándose para alunizar. ",
     },
     paragraph: {
       lead: "",
@@ -317,26 +318,21 @@ export const MOCK_DATA = [
     },
     sign: {
       title: "",
-      label: "",
-    },
-    marquee: {
-      title: "",
-      label: "",
-      separator: true,
+      label: "Full Name",
     },
   },
   {
-    type: "SIMPLE",
+    type: "REGULAR",
     reverse: false,
     width: 2,
     height: 1,
     title: {
-      lead: "",
-      title: LOREMP_IMPSU.substr(0, 20),
+      lead: "volanta",
+      title: LOREMP_IMPSU.substr(0, 100),
     },
     paragraph: {
       lead: "",
-      paragraph: LOREMP_IMPSU.substr(0, 200),
+      paragraph: "",
     },
     urlImage: {
       url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
@@ -354,21 +350,21 @@ export const MOCK_DATA = [
     marquee: {
       title: "",
       label: "",
-      separator: true,
+      separator: false,
     },
   },
   {
-    type: "SIMPLE",
+    type: "REGULAR",
     reverse: false,
     width: 2,
     height: 1,
     title: {
-      lead: "",
-      title: LOREMP_IMPSU.substr(0, 20),
+      lead: "volanta",
+      title: LOREMP_IMPSU.substr(0, 100),
     },
     paragraph: {
       lead: "",
-      paragraph: LOREMP_IMPSU.substr(0, 200),
+      paragraph: "",
     },
     urlImage: {
       url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
@@ -386,21 +382,21 @@ export const MOCK_DATA = [
     marquee: {
       title: "",
       label: "",
-      separator: true,
+      separator: false,
     },
   },
   {
-    type: "SIMPLE",
+    type: "REGULAR",
     reverse: false,
     width: 2,
     height: 1,
     title: {
-      lead: "",
-      title: LOREMP_IMPSU.substr(0, 20),
+      lead: "volanta",
+      title: LOREMP_IMPSU.substr(0, 100),
     },
     paragraph: {
       lead: "",
-      paragraph: LOREMP_IMPSU.substr(0, 200),
+      paragraph: "",
     },
     urlImage: {
       url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
@@ -416,23 +412,23 @@ export const MOCK_DATA = [
       label: "",
     },
     marquee: {
-      title: "",
-      label: "",
-      separator: true,
+      title: "marquesina",
+      label: "1",
+      separator: false,
     },
   },
   {
-    type: "SIMPLE",
+    type: "REGULAR",
     reverse: false,
     width: 2,
     height: 1,
     title: {
-      lead: "",
-      title: LOREMP_IMPSU.substr(0, 20),
+      lead: "lead",
+      title: LOREMP_IMPSU.substr(0, 100),
     },
     paragraph: {
       lead: "",
-      paragraph: LOREMP_IMPSU.substr(0, 200),
+      paragraph: "",
     },
     urlImage: {
       url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
@@ -448,8 +444,96 @@ export const MOCK_DATA = [
       label: "",
     },
     marquee: {
+      title: "marquee",
+      label: "author",
+      separator: true,
+    },
+  },
+  {
+    type: "AUTHORBOLD",
+    reverse: false,
+    width: 1,
+    height: 1,
+    title: {
+      lead: "lead",
+      title:
+        "Title cuando se dieron cuenta, los dos hermanos estaban preparándose para alunizar. ",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: LOREMP_IMPSU.substr(0, 200),
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "",
+    urlNote: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo azul",
+    },
+    sign: {
+      title: "",
+      label: "Full Name",
+    },
+  },
+  {
+    type: "AUTHORBOLD",
+    reverse: false,
+    width: 1,
+    height: 1,
+    title: {
+      lead: "lead",
+      title:
+        "Title cuando se dieron cuenta, los dos hermanos estaban preparándose para alunizar. ",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: LOREMP_IMPSU.substr(0, 200),
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "",
+    urlNote: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo azul",
+    },
+    sign: {
+      title: "",
+      label: "Full Name",
+    },
+  },
+  {
+    type: "REGULAR",
+    reverse: false,
+    width: 2,
+    height: 1,
+    title: {
+      lead: "lead",
+      title: LOREMP_IMPSU.substr(0, 100),
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
       title: "",
       label: "",
+    },
+    marquee: {
+      title: "marquee",
+      label: "author",
       separator: true,
     },
   },

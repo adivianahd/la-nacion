@@ -16,7 +16,7 @@ const AuthorCard = ({
   alt,
 }) => {
   return (
-    <div className="container">
+    <div className="container-author-card">
       <Typography
         color="dark"
         size={sizeTitle || "M"}
