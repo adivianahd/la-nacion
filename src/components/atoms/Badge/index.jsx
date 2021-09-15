@@ -1,8 +1,11 @@
 import "./styles.scss";
 
-const Badge = ({ title, number }) => {
+const Badge = ({ title, number, className }) => {
   return (
-    <div style={number && { height: 40 }} className="badge-style">
+    <div
+      style={number && { height: 40 }}
+      className={className + " badge-style"}
+    >
       {title}
     </div>
   );

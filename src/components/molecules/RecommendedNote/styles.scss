@@ -1,0 +1,30 @@
+@import "../../../theme/_theme.module.scss";
+
+.container-recomemended-note {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 310px;
+}
+
+.image-note {
+  max-height: 209px;
+  min-height: 179px;
+  height: 100%;
+  width: 100%;
+}
+
+.badge {
+  position: absolute;
+}
+
+.container-badge-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.typography {
+  padding-bottom: spacing(1);
+}
