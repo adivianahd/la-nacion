@@ -1,0 +1,35 @@
+@import "../../../theme/_theme.module.scss";
+
+.container-sponsored {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+
+  @media only screen and (max-width: 800px){
+    display: none;
+  }
+}
+
+.image-note {
+  height: auto;
+  max-height: spacing(100);
+  min-height: spacing(60);
+  width: 100%;
+  z-index: -1;
+}
+
+.container-badge {
+  margin-top: -200px;
+  padding: spacing(2);
+}
+
+.typography-sponsored {
+  background-color: $white-color;
+  margin-right: spacing(4);
+  margin-top: spacing(4);
+  max-width: spacing(120);
+  min-height: spacing(22);
+}

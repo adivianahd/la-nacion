@@ -60,7 +60,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  min-width: 320px;
+  min-width: spacing(64);
 }
 
 .suscribe-button {
