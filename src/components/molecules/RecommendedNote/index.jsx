@@ -16,17 +16,17 @@ const RecommendedNote = ({
     <div className="container-recomemended-note">
       <div className="container-badge-image">
         <Image src={urlImg} alt={alt || ""} className="image-note" />
-        <Badge className="badge" number title={badge || "1"} />
+        <Badge className="badge" number title={badge || ""} />
       </div>
       <div className="typography">
         <Typography
           color="dark"
           size={sizeTitle || "L"}
           fontFamily="suecasLabMedium"
-          lead={lead || "hola"}
+          lead={lead || ""}
           urlNote={urlNote}
         >
-          {title || "soy un texto aqui para rellenar"}
+          {title || ""}
         </Typography>
       </div>
     </div>

@@ -20,7 +20,9 @@ const CardRegular = ({
 }) => {
   return (
     <div className={cardReverse ? "reverse" : "container"}>
-      <img src={urlImg} alt={alt || ""} />
+      {urlImg && (
+        <img src={urlImg} alt={alt || ""} className="img-card-regular" />
+      )}
       <div className="container-text">
         <Typography
           color="dark"
@@ -48,7 +50,7 @@ const CardRegular = ({
         <Marquee
           marquee={marquee || ""}
           label={labelMarquee || ""}
-          separator={separatorMaquee || true}
+          separator={separatorMaquee}
         />
       </div>
     </div>

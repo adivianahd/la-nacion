@@ -1,0 +1,42 @@
+@import "../../../theme/_theme.module.scss";
+
+.content {
+  display: grid;
+}
+
+@for $i from 1 through 6 {
+  .width-#{$i} {
+    grid-column: span $i;
+  }
+
+  .height-#{$i} {
+    grid-row: span $i;
+  }
+}
+
+.container-Left-focal {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.grid-template-container {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(200px, auto));
+  grid-template-columns: repeat(6, 1fr);
+  max-width: $max-width-body;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+
+
+  @media only screen and (max-width: 800px){
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    &>*{
+      grid-column: auto;
+      grid-row: auto;
+    }
+  }
+
+}

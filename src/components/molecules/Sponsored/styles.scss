@@ -22,6 +22,7 @@
 }
 
 .container-badge {
+  width: 50%;
   margin-top: -200px;
   padding: spacing(2);
 }
@@ -30,6 +31,5 @@
   background-color: $white-color;
   margin-right: spacing(4);
   margin-top: spacing(4);
-  max-width: spacing(120);
   min-height: spacing(22);
 }

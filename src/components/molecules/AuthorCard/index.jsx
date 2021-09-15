@@ -1,7 +1,7 @@
 import "./styles.scss";
 import Typography from "../../atoms/Typography";
 import Marquee from "../../atoms/Marquee";
-import Image from "../../atoms/image/ContainerPicture";
+import Image from "../../atoms/image/index";
 
 const AuthorCard = ({
   lead,
@@ -37,7 +37,7 @@ const AuthorCard = ({
           alt={authorName}
           className={smallAvatar && "small-avatar"}
         />
-        <Marquee sign={"Author"} label={authorName || "full name"} />
+        <Marquee sign={"Author"} label={authorName || ""} />
       </div>
     </div>
   );

@@ -68,7 +68,7 @@ const Typography = ({
       }}
     >
       {lead && (
-        <span className={colorLead ? ColorLead[colorLead] : "lead-blue"}>
+        <span className={colorLead ? ColorLead[colorLead] : "lead-strong-blue"}>
           {firstUpper(lead) + `${". "}`}
         </span>
       )}
