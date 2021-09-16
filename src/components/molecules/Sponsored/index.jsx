@@ -6,14 +6,7 @@ import Badge from "../../atoms/Badge";
 const Sponsored = ({ lead, title, urlImg, alt, badge, sizeTitle, urlNote }) => {
   return (
     <div className="container-sponsored">
-      <Image
-        src={
-          urlImg ||
-          "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg"
-        }
-        alt={alt || ""}
-        className="image-sponsored"
-      />
+      <Image src={urlImg} alt={alt || ""} className="image-sponsored" />
       <div className="container-badge-sponsored">
         <Badge className="badge" title={badge || "ESPACIO PATROCINADO"} />
         <div className="typography-sponsored">

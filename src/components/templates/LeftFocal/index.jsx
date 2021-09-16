@@ -1,9 +1,12 @@
 import "./styles.scss";
 import CardRegular from "../../molecules/CardRegular";
 import { MOCK_DATA } from "../../../Mock";
-import AuthorCard from "../../molecules/AuthorCard";
-import Commercial from "../../molecules/Commercial";
-import RecommendedNote from "../../molecules/RecommendedNote";
+import {
+  AuthorCard,
+  Commercial,
+  RecommendedNote,
+  Sponsored,
+} from "../../molecules";
 
 const getCardRegularProps = (type) =>
   ({
@@ -55,6 +58,16 @@ const LeftFocal = () => {
             (note.type === "RECOMMENDED" && (
               <RecommendedNote
                 badge={index}
+                lead={note.title.lead}
+                title={note.title.title}
+                urlImg={note.urlImage.url}
+                urlNote={note.urlNote.url}
+                alt={note.urlNote.alt}
+              />
+            )) ||
+            (note.type === "SPONSORED" && (
+              <Sponsored
+                badge={note.badge}
                 lead={note.title.lead}
                 title={note.title.title}
                 urlImg={note.urlImage.url}
