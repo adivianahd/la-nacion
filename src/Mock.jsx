@@ -55,7 +55,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -87,7 +87,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -119,7 +119,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -143,7 +143,7 @@ export const MOCK_DATA = [
     },
     paragraph: {
       lead: "",
-      paragraph: LOREMP_IMPSU.substr(0, 200),
+      paragraph: LOREMP_IMPSU.substr(0, 300),
     },
     urlImage: {
       url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
@@ -184,7 +184,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -216,7 +216,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -248,7 +248,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -267,11 +267,11 @@ export const MOCK_DATA = [
     width: 2,
     height: 1,
     title: {
-      lead: "",
+      lead: "lead",
       title: LOREMP_IMPSU.substr(0, 20),
     },
     paragraph: {
-      lead: "",
+      lead: "subhead",
       paragraph: LOREMP_IMPSU.substr(0, 200),
     },
     urlImage: {
@@ -313,7 +313,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "https://www.lanacion.com.ar/",
       alt: "cielo azul",
     },
     sign: {
@@ -340,7 +340,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -372,7 +372,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -404,7 +404,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -436,7 +436,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -469,7 +469,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "https://www.lanacion.com.ar/",
       alt: "cielo azul",
     },
     sign: {
@@ -497,7 +497,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "https://www.lanacion.com.ar/",
       alt: "cielo azul",
     },
     sign: {
@@ -524,7 +524,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -556,7 +556,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -587,7 +587,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -619,7 +619,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "hhttps://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -715,7 +715,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -746,7 +746,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -777,7 +777,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -809,7 +809,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -841,7 +841,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -873,7 +873,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
@@ -905,7 +905,7 @@ export const MOCK_DATA = [
     },
     badge: "ESPACIO PATROCINADO",
     urlNote: {
-      url: "",
+      url: "https://www.lanacion.com.ar/",
       alt: "",
     },
     sign: {
