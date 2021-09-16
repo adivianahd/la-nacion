@@ -727,4 +727,162 @@ export const MOCK_DATA = [
       label: "1",
     },
   },
+  {
+    type: "REGULAR",
+    reverse: true,
+    width: 4,
+    height: 1,
+    title: {
+      lead: "Volanta",
+      title: LOREMP_IMPSU.substr(0, 100),
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "REGULAR",
+    reverse: true,
+    width: 2,
+    height: 1,
+    title: {
+      lead: "Volanta",
+      title: LOREMP_IMPSU.substr(0, 100),
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "RECOMMENDED",
+    reverse: false,
+    width: 2,
+    height: 1,
+    title: {
+      lead: "lead",
+      title:
+        "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "RECOMMENDED",
+    reverse: false,
+    width: 2,
+    height: 1,
+    title: {
+      lead: "lead",
+      title:
+        "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "RECOMMENDED",
+    reverse: false,
+    width: 2,
+    height: 1,
+    title: {
+      lead: "lead",
+      title:
+        "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
 ];
