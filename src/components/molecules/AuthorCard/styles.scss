@@ -3,7 +3,8 @@
 .container-author-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   padding: spacing(4) spacing(4) spacing(4) spacing(4);
   text-align: center;
   border: solid 1px $border-grey;
@@ -17,6 +18,8 @@
   margin-right: auto;
   width: 50%;
   height: 50%;
+  max-width: spacing(30) !important;
+  max-height: spacing(30) !important;
   display: flex;
   flex-direction: column;
   justify-content: center;

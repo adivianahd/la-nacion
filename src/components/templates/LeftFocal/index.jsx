@@ -1,8 +1,8 @@
 import "./styles.scss";
-import Badge from "../../atoms/Badge";
 import CardRegular from "../../molecules/CardRegular";
 import { MOCK_DATA } from "../../../Mock";
 import AuthorCard from "../../molecules/AuthorCard";
+import Commercial from "../../molecules/Commercial";
 
 const getCardRegularProps = (type) =>
   ({
@@ -39,16 +39,16 @@ const LeftFocal = () => {
           className={`content width-${note.width} height-${note.height}`}
           key={index}
         >
-          {(note.type === "AUTHORBOLD" && (
-            <AuthorCard
+          {(note.type === "COMMERCIAL" && (
+            <Commercial
               lead={note.title.lead}
-              note={note.title.title}
-              colorLead="strongBlue"
-              authorName={note.sign.label}
+              title={note.title.title}
               urlImg={note.urlImage.url}
               urlNote={note.urlNote.url}
-              alt={note.urlNote.alt}
-              {...getCardRegularProps(note.type)}
+              badge={note.badge}
+              alt={note.urlImage.alt}
+              marquee={note.marquee.title}
+              labelMarquee={note.marquee.label}
             />
           )) ||
             (note.type === "AUTHORBOLD" && (

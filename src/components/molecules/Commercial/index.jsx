@@ -8,6 +8,7 @@ const Commercial = ({
   lead,
   title,
   urlImg,
+  urlNote,
   alt,
   badge,
   sizeTitle,
@@ -15,18 +16,19 @@ const Commercial = ({
   labelMarquee,
 }) => {
   return (
-    <div className="container">
+    <div className="container-commercial">
       <Image src={urlImg} alt={alt || ""} className="image-commercial" />
-      <div className="badge-container">
-        <Badge title={badge || "holiviris"} />
+      <div className="badge-commercial">
+        <Badge title={badge || ""} />
       </div>
-      <div className="typography-content">
+      <div className="typography-commercial">
         <Typography
           color="white"
           size={sizeTitle || "LS"}
           colorLead={"white"}
           fontFamily="suecasLabMedium"
           lead={lead || ""}
+          url={urlNote || ""}
         >
           {title || ""}
         </Typography>

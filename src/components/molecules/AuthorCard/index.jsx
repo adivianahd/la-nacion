@@ -37,8 +37,8 @@ const AuthorCard = ({
           alt={authorName}
           className={smallAvatar && "small-avatar"}
         />
-        <Marquee sign={"Author"} label={authorName || ""} />
       </div>
+      <Marquee sign={"Author"} label={authorName || ""} />
     </div>
   );
 };

@@ -12,9 +12,9 @@ const Sponsored = ({ lead, title, urlImg, alt, badge, sizeTitle, urlNote }) => {
           "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg"
         }
         alt={alt || ""}
-        className="image-note"
+        className="image-sponsored"
       />
-      <div className="container-badge">
+      <div className="container-badge-sponsored">
         <Badge className="badge" title={badge || "ESPACIO PATROCINADO"} />
         <div className="typography-sponsored">
           <Typography

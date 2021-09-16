@@ -297,7 +297,7 @@ export const MOCK_DATA = [
     type: "AUTHORBOLD",
     reverse: false,
     width: 2,
-    height: 1,
+    height: 2,
     title: {
       lead: "lead",
       title:
@@ -323,7 +323,7 @@ export const MOCK_DATA = [
   },
   {
     type: "REGULAR",
-    reverse: false,
+    reverse: true,
     width: 2,
     height: 1,
     title: {
@@ -340,7 +340,7 @@ export const MOCK_DATA = [
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
       alt: "",
     },
     sign: {
@@ -386,7 +386,7 @@ export const MOCK_DATA = [
     },
   },
   {
-    type: "REGULAR",
+    type: "SIMPLE",
     reverse: false,
     width: 2,
     height: 1,
@@ -399,12 +399,12 @@ export const MOCK_DATA = [
       paragraph: "",
     },
     urlImage: {
-      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      url: "",
       alt: "cielo-azul",
     },
     badge: "",
     urlNote: {
-      url: "",
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
       alt: "",
     },
     sign: {
@@ -452,7 +452,7 @@ export const MOCK_DATA = [
   {
     type: "AUTHORBOLD",
     reverse: false,
-    width: 1,
+    width: 2,
     height: 1,
     title: {
       lead: "lead",
@@ -480,7 +480,7 @@ export const MOCK_DATA = [
   {
     type: "AUTHORBOLD",
     reverse: false,
-    width: 1,
+    width: 2,
     height: 1,
     title: {
       lead: "lead",
@@ -535,6 +535,196 @@ export const MOCK_DATA = [
       title: "marquee",
       label: "author",
       separator: true,
+    },
+  },
+  {
+    type: "REGULAR",
+    reverse: false,
+    width: 2,
+    height: 1,
+    title: {
+      lead: "Volanta",
+      title: LOREMP_IMPSU.substr(0, 100),
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "REGULAR",
+    reverse: true,
+    width: 4,
+    height: 1,
+    title: {
+      lead: "Volanta",
+      title: LOREMP_IMPSU.substr(0, 100),
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "NOTA",
+    reverse: false,
+    width: 2,
+    height: 1,
+    title: {
+      lead: "lead",
+      title:
+        "Title esto es un titulo de la novedad con unas cuantas lineas que ocupar Lead. Title esto es un titulo de la novedad con unas cuantas lineas que ocuparLead. Title esto es un titulo de la novedad con unas cuantas lineas que ocuparLead.",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "",
+      alt: "",
+    },
+    badge: "",
+    urlNote: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquee",
+      label: "author",
+      separator: true,
+    },
+  },
+  {
+    type: "COMMERCIAL",
+    reverse: false,
+    width: 2,
+    height: 2,
+    title: {
+      lead: "Volanta",
+      title:
+        "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "COMMERCIAL",
+    reverse: false,
+    width: 2,
+    height: 2,
+    title: {
+      lead: "Volanta",
+      title: "Esto es un titulo ",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
+    },
+  },
+  {
+    type: "COMMERCIAL",
+    reverse: false,
+    width: 2,
+    height: 2,
+    title: {
+      lead: "Volanta",
+      title:
+        "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
+    },
+    paragraph: {
+      lead: "",
+      paragraph: "",
+    },
+    urlImage: {
+      url: "https://cdn.pixabay.com/photo/2015/08/21/10/33/clouds-898712_1280.jpg",
+      alt: "cielo-azul",
+    },
+    badge: "ESPACIO PATROCINADO",
+    urlNote: {
+      url: "",
+      alt: "",
+    },
+    sign: {
+      title: "",
+      label: "",
+    },
+    marquee: {
+      title: "marquesina",
+      label: "1",
     },
   },
 ];

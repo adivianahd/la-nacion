@@ -16,9 +16,9 @@ const RecommendedNote = ({
     <div className="container-recomemended-note">
       <div className="container-badge-image">
         <Image src={urlImg} alt={alt || ""} className="image-note" />
-        <Badge className="badge" number title={badge || ""} />
+        <Badge className="badge-note" number title={badge || ""} />
       </div>
-      <div className="typography">
+      <div className="typography-note">
         <Typography
           color="dark"
           size={sizeTitle || "L"}

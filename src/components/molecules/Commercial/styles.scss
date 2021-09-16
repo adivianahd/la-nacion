@@ -1,44 +1,50 @@
 @import "../../../theme/_theme.module.scss";
 
-.container {
+.container-commercial {
   position: relative;
   display: flex;
   flex-direction: column;
   border: solid 1px $border-grey;
   width: 100%;
   height: 100%;
-  max-width: spacing(60);
+  max-width: spacing(100);
 
   @media only screen and (max-width: 800px){
+    background-color: $strong-blue;
     .image-commercial{
+      width: 100%;
       height: spacing(42);
     }
-    .typography-content{
+    .typography-commercial{
       margin-top: 0px;
       height: spacing(25);
       background-color: $strong-blue;
       padding: spacing(1) spacing(2) spacing(1) spacing(2);
     }
-    .badge-container{
+    .badge-commercial{
       display: none;
     }
   }
 
   @media only screen and (min-width: 700px){
+    background-color: $alert-red;
     .image-commercial{
+      width: 100%;
       height: spacing(58.6);
     }
-    .typography-content{
+    .typography-commercial{
       height: spacing(28);
       background-color: $alert-red;
     }
   }
 
   @media only screen and (min-width: 1200px){
+    background-color: $strong-pink;
     .image-commercial{
+      width: 100% !important;
       height: spacing(70);
     }
-    .typography-content{
+    .typography-commercial{
       height: spacing(23);
       background-color: $strong-pink;
     }
@@ -46,15 +52,15 @@
 }
 
 .image-commercial {
-  height: spacing(70);
+  height: spacing(100);
 }
 
-.badge-container {
+.badge-commercial {
   padding-left: spacing(3.2);
   margin-top: -40px;
 }
 
-.typography-content {
+.typography-commercial {
   background-color: $alert-red;
   margin-top: spacing(3);
   padding: spacing(1) spacing(3.2) spacing(1) spacing(3.2);
