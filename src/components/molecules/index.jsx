@@ -4,6 +4,7 @@ import AuthorCard from "./AuthorCard";
 import Commercial from "./Commercial";
 import BreadCrumbs from "./BreadCrumbs";
 import CardRegular from "./CardRegular";
+import Footer from "./Footer";
 
 export {
   Sponsored,
@@ -12,4 +13,5 @@ export {
   Commercial,
   BreadCrumbs,
   CardRegular,
+  Footer,
 };

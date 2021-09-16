@@ -9,6 +9,7 @@ import { ReactComponent as QrIcon } from "./qr-data.svg";
 import { ReactComponent as SearchIcon } from "./search.svg";
 import { ReactComponent as SearchIconBig } from "./searchIconBig.svg";
 import { ReactComponent as SmallLogo } from "./small-logo.svg";
+import { ReactComponent as LargeLogo } from "./large-logo.svg";
 import { ReactComponent as TwitterIcon } from "./twitter.svg";
 import { ReactComponent as WeatherIcon } from "./weather.svg";
 import { ReactComponent as WifiIcon } from "./wifi.svg";
@@ -16,6 +17,7 @@ import { ReactComponent as WifiIcon } from "./wifi.svg";
 export {
   ApplePlayIcon,
   ClubIcon,
+  LargeLogo,
   FacebookIcon,
   GdaIcon,
   GooglePlayIcon,
